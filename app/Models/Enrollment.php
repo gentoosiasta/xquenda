@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ClassSchedules extends Model
+class Enrollment extends Model
 {
-    /** @use HasFactory<\Database\Factories\ClassSchedulesFactory> */
+    /** @use HasFactory<\Database\Factories\EnrollmentFactory> */
     use HasFactory;
 }
